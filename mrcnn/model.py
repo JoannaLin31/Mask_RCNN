@@ -24,7 +24,7 @@ import keras.engine.base_layer as KE
 import keras.models as KM
 
 
-from src.python.tools.preAnnotation.thirdParty.Mask_RCNN.mrcnn import utils
+from tools.preAnnotation.thirdParty.Mask_RCNN.mrcnn import utils
 
 # Requires TensorFlow 1.3+ and Keras 2.0.8+.
 from distutils.version import LooseVersion
